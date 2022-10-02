@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+     <!-- Stylesheet -->
+     <link rel="stylesheet" href="style.css" />
+    <title>Mission: James Webb</title>
+</head>
+<body>
+
+    <div class="cross d-flex justify-content-center flex-column text-center" onclick="index()">HOME</div>
+    
+    <div class="container d-flex flex-column justify-content-center fullH">
+        <div class="row">
+            <div class="col-12">
+                <h1>Select the Stars.</h1>
+                <p>Please select 5 images that you consider were taken by the JWST telescope.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 memo-card" onclick="getId(this)" id="H1">
+                <img src="img/Hubble_Carina_Nebulosa.jpg" alt="" class="img-fluid " >
+            </div>
+            <div class="col-2 memo-card" onclick="getId(this)" id="H2">
+                <img src="img/Hubble_Neptune.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-2 memo-card" onclick="getId(this)" id="H3">
+                <img src="img/Hubble_SMACS_0723.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-2 memo-card" onclick="getId(this)" id="H4">
+                <img src="img/Hubble_Southern_Ring_Nebula.jpg" alt="" class="img-fluid" >
+            </div>
+            <div class="col-2 memo-card" onclick="getId(this)" id="H5">
+                <img src="img/Hubble_Sthephans_Quintet.jpg" alt="" class="img-fluid" >
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 memo-card" onclick="getId(this)" id="J1">
+                <img src="img/JWST_Carina_Nebulosa.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-2 memo-card" onclick="getId(this)" id="J2">
+                <img src="img/JWST_Neptunes_Rings.jpg" alt="" class="img-fluid" >
+            </div>
+            <div class="col-2 memo-card" onclick="getId(this)" id="J3">
+                <img src="img/JWST_SMACS_0723.jpg" alt="" class="img-fluid" >
+            </div>
+            <div class="col-2 memo-card" onclick="getId(this)" id="J4">
+                <img src="img/JWST_Southern_Ring_Nebula.jpg" alt="" class="img-fluid" >
+            </div>
+            <div class="col-2 memo-card" onclick="getId(this)" id="J5">
+                <img src="img/JWST_Sthephans_Quintet.jpg" alt="" class="img-fluid" >
+            </div>
+        </div>
+        <div class="row d-flex text-center flex-column">
+            <div class="col">
+                <h1 id="counter" onload="iniCounter()"></h1>
+            </div>
+            <div class="col">
+                <a href="ray.html" class="btn btn-light hidden" id="results"><h1>Next Game</h1></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
