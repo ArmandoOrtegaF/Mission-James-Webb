@@ -79,7 +79,7 @@ function getId(img)
                 dialogFrame.textContent = 'Let\'s continue with the Optical Telescope Element (OTE), which is comprised of a principal and  secondary mirror, these are the eye of the observatory and it gathers the light coming from space and provides it to the instruments in the ISIM.';
               break;
             case 10:
-              dialogFrame.textContent = 'Help me find a something interesting to capture.';
+              dialogFrame.textContent = 'Help me find a something interesting to capture. Remember Webb Telescope catches infrared light';
               break;
             case 11:
                 dialogFrame.textContent = 'Excellent! now let\'s take a look at the ISIM and look what we\'ve captured.';
