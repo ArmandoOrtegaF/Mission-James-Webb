@@ -55,7 +55,7 @@ function getId(img)
                 dialogFrame.textContent = 'The James Webb Space Telescope was launched on December 25, 2021, being the largest, most powerful, and most complex space science telescope ever built. This telescope will allow us to study how galaxies evolve and the birth of stars and planets. Pretty amazing, right?';
               break;
             case 2:
-                dialogFrame.textContent = 'Instead of orbiting Earth like the Hubble, Webb telescope will be orbiting the Sun, 1 million milles away from Earth!';
+                dialogFrame.textContent = 'Instead of orbiting Earth like the Hubble, Webb telescope will be orbiting the Sun, 1 million miles away from Earth!';
               break;
             case 3:
                 dialogFrame.textContent = 'Let\'s take a look at it!';
