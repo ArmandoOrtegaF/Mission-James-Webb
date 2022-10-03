@@ -110,4 +110,64 @@ function getId(img)
     }
 });
 
-
+/*
+switch(dialog) {
+    case 0:
+        dialogFrame.textContent = 'Hola! Mi nombre es BeepBop y soy un asistente espacial. Soy el encargado del Telescopio Espacial James Webb, pero soy nuevo en mi trabajo. ¿Me ayudarías?';
+      break;
+    case 1:
+        dialogFrame.textContent = 'El 25 de diciembre de 2021 se lanzó el telescopio espacial James Webb, que es el mayor, más potente y más complejo telescopio de ciencia espacial jamás construido. Este telescopio permitirá estudiar cómo evolucionan las galaxias y el nacimiento de estrellas y planetas. Bastante sorprendente, ¿verdad?';
+      break;
+    case 2:
+        dialogFrame.textContent = 'En lugar de orbitar la Tierra como el Hubble, el telescopio Webb orbitará alrededor del Sol, ¡a 1 millón de millas de la Tierra!';
+      break;
+    case 3:
+        dialogFrame.textContent = '¡Vamos a echarle un vistazo!';
+      break;
+    case 4:
+        dialogFrame.textContent = 'El telescopio consta de 3 partes principales: El elemento óptico del telescopio (OTE), el módulo de instrumentos científicos integrados (ISIM) y la nave espacial.';
+      break;
+    case 5:
+        dialogFrame.textContent = '¿Empezamos con el proceso?';
+      break;
+    case 6:
+        dialogFrame.textContent = 'Genial, ven conmigo... ';
+      break;
+    case 7:
+        dialogFrame.textContent = 'La nave espacial proporciona las funciones de apoyo para el funcionamiento del telescopio y alberga los seis principales subsistemas necesarios para su funcionamiento.';
+      break;
+    case 8:
+        dialogFrame.innerHTML = '¿Ves esas capas? Se llaman subsistema de Parasol, y sirven para mantiener el calor del sol alejado del OTE y del ISIM ya que necesitan estar extra fríos para funcionar (¡370 °F!).'
+      break;
+    case 9:
+        dialogFrame.textContent = 'Sigamos con el Elemento de Telescopio Óptico (OTE), que está compuesto por un espejo principal y otro secundario, estos son el ojo del observatorio ya que recogen la luz procedente del espacio y la proporciona a los instrumentos del ISIM.';
+      break;
+    case 10:
+      dialogFrame.textContent = '¡Ayúdame a capturar la luz! El telescopio Webb solo debe atrapar la luz infraroja.';
+      break;
+    case 11:
+        dialogFrame.textContent = '¡Excelente! Ahora vamos a echar un vistazo al ISIM y a ver qué hemos captado.';
+      break;
+    case 12:
+        dialogFrame.textContent = 'El Módulo de Instrumentos Científicos Integrados (ISIM) alberga los cuatro instrumentos principales que detectarán la luz captada por el OTE y la procesarán.';
+      break;
+    case 13:
+        dialogFrame.textContent = 'Veamos cómo va el procesamiento.';
+      break;
+    case 14:
+      dialogFrame.textContent = 'Ahora que entendemos cómo funciona el telescopio, podemos ver las imágenes que capta. ¿Quieres echar un vistazo?';
+      break;
+    case 15:
+        dialogFrame.textContent = '¡Tienen un aspecto impresionante! En el otro lado, tenemos la misma imagen tomada desde el telescopio Hubble, y podemos apreciar que no es tan nítida. ';
+      break;
+    case 16:
+        dialogFrame.textContent = 'Esto se debe a que las estrellas y los planetas que se están formando se esconden detrás de capullos de polvo que absorben la luz visible, por lo que sólo se pueden ver por la luz infrarroja que es el rango del espectro electromagnético que utiliza el Telescopio Webb.';
+      break;
+    case 17:
+        dialogFrame.innerHTML = 'Hoy has aprendido mucho, ¿te apuntas a un reto? Utiliza lo que aprendiste para identificar las imágenes tomadas por el JWST (recuerda que son más nítidas que las tomadas por el Hubble)' + '<button class="btn btn-dark" onclick="window.location=\'memo_card.html\';"  style="margin: 0px 200px">Play</button>';
+      break;
+    default:
+      break;
+      // code block
+  }
+  */
